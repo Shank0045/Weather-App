@@ -21,7 +21,7 @@ defult();
 
 async function weather(place) {
   try {
-    let baseurl = `http://api.weatherapi.com/v1/current.json?key=0ef84a1c2055462db35122159251103&q=${place}&aqi=no`;
+    let baseurl = `https://api.weatherapi.com/v1/current.json?key=0ef84a1c2055462db35122159251103&q=${place}&aqi=no`;
 
     let res = await fetch(baseurl);
     let data = await res.json();
