@@ -4,7 +4,7 @@ const enter = document.querySelector(".glass");
 
 async function defult() {
  const url =
-    "http://api.weatherapi.com/v1/current.json?key=0ef84a1c2055462db35122159251103&q=bengaluru&aqi=no";
+    "https://api.weatherapi.com/v1/current.json?key=0ef84a1c2055462db35122159251103&q=bengaluru&aqi=no";
 
   let res = await fetch(url);
   let data = await res.json();
