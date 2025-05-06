@@ -15,7 +15,7 @@ body{
 
 .maincontainer{
     margin:30px auto;
-    width: 35vw;
+    width: 400px;
     min-height: 65vh;
     max-height: max-content;
     background-color: rgb(138, 219, 219);
@@ -89,4 +89,12 @@ body{
     justify-content: space-evenly;
     align-items: center;
     margin: 50px auto;
+}
+
+
+@media (width <450px ) {
+    .maincontainer{
+        width: 300px ;
+    }
+    
 }
