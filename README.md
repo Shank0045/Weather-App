@@ -1,7 +1,7 @@
 <h1>⛅ Weather-App </h1> </br>
 🌍 A clean and responsive weather application built with HTML, CSS, and JavaScript, providing live weather data using the OpenWeatherMap API.</br>
 
-🔗 Live Demo: 🌐  
+🔗 Live Demo: 🌐  https://shank0045.github.io/Weather-App/
   
 📌 About the Project </br>
 This project is a minimalist weather dashboard that lets users:</br>
